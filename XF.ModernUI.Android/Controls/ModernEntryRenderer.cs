@@ -1,5 +1,4 @@
-﻿using System;
-using Android.Content;
+﻿using Android.Content;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 using XF.ModernUI.Controls;
@@ -12,6 +11,7 @@ namespace XF.ModernUI.Controls
     {
         public ModernEntryRenderer(Context context) : base(context)
         {
+            this.SetBackgroundColor(Android.Graphics.Color.Red);
         }
     }
 }
