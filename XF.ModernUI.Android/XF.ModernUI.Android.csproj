@@ -169,14 +169,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Controls\ModernEntryRenderer.cs" />
+    <Compile Include="Controls\ModernButtonRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XF.ModernUI.Forms\XF.ModernUI.Forms.csproj">
-      <Project>{D1AE575E-8F46-4E56-BE46-7BE814AD847A}</Project>
+      <Project>{E32DCB4C-9EC4-44C5-9A0B-6EBF4EBFE82F}</Project>
       <Name>XF.ModernUI.Forms</Name>
     </ProjectReference>
   </ItemGroup>
